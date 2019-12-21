@@ -1,13 +1,12 @@
 # Installation
 
-Clone this repo to ~/source/.config
+Clone this repo to `~/source/.config`
 
-From ~ run
+From `~` run
 
 ```
-./source/setup.fish
+./source/.config/setup.fish
 ```
-
 
 to use the dotfiles in this repo.
 
