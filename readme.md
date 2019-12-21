@@ -13,3 +13,11 @@ to use the dotfiles in this repo.
 Then run `vim +PluginInstall +qall` to install the Vundle plugins.
 
 Also install the Chalk theme from https://github.com/Mayccoll/Gogh
+
+and set up spacefish:
+
+```
+curl -L https://get.oh-my.fish | fish
+omf install spacefish
+```
+
