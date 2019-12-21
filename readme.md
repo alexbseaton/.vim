@@ -1,9 +1,15 @@
 # Installation
 
-Clone this repo to ~/.vim
+Clone this repo to ~/source/.config
 
 From ~ run
 
-`ln -s ~/.vim/.vimrc`
+```
+./source/setup.fish
+```
 
-to use the .vimrc in this repo.
+
+to use the dotfiles in this repo.
+
+Then run `vim +PluginInstall +qall` to install the Vundle plugins.
+
