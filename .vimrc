@@ -1,6 +1,5 @@
 set shell=/bin/bash
 set nocompatible              " be iMproved, required
-filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -14,7 +13,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'isRuslan/vim-es6'
 
 call vundle#end()
-filetype plugin indent on
 
 set t_Co=256
 set t_ut=
@@ -28,4 +26,6 @@ filetype plugin indent on
 syntax on
 set encoding=utf-8
 set clipboard=unnamedplus
+
+set number
 
