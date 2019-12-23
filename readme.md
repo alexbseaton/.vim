@@ -14,10 +14,10 @@ Then run `vim +PluginInstall +qall` to install the Vundle plugins.
 
 Also install the Chalk theme from https://github.com/Mayccoll/Gogh
 
-and set up spacefish:
+and install oh-my-fish
 
 ```
-curl -L https://get.oh-my.fish | fish
-omf install spacefish
+curl -L https://get.oh-my.fish > install
+fish install --path=~/.local/share/omf --config=~/source/.config/omf 
 ```
 

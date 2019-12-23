@@ -1,5 +1,6 @@
 set shell=/bin/bash
 set nocompatible              " be iMproved, required
+filetype off
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -11,6 +12,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tomasiser/vim-code-dark'
 Plugin 'scrooloose/nerdtree'
 Plugin 'isRuslan/vim-es6'
+Plugin 'dag/vim-fish'
 
 call vundle#end()
 
