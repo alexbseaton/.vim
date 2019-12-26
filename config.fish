@@ -6,5 +6,7 @@ alias r='ranger'
 alias grep='egrep -i'
 alias less='less -i'
 
+alias gpush='git push origin (mybranch)'
+
 set fish_function_path ~/source/.config/functions $fish_function_path
 
