@@ -21,3 +21,17 @@ curl -L https://get.oh-my.fish > install
 fish install --path=~/.local/share/omf --config=~/source/.config/omf 
 ```
 
+## Packages
+
+- fish
+- ranger
+- highlight
+- tmux
+- google-chrome
+- code
+- idea
+
+## Keybindings
+
+CapsLock -> Ctrl
+
