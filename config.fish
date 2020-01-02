@@ -10,3 +10,6 @@ alias gpush='git push origin (mybranch)'
 
 set fish_function_path ~/source/.config/functions $fish_function_path
 
+export VISUAL=vim
+export editor="$VISUAL"
+
