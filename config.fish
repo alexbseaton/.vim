@@ -5,6 +5,8 @@ alias gc='google-chrome'
 alias r='ranger'
 alias grep='egrep -i'
 alias less='less -i'
+alias g='git'
+alias v='nvim'
 
 alias gpush='git push origin (mybranch)'
 
