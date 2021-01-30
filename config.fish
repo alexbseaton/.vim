@@ -15,3 +15,5 @@ set fish_function_path ~/source/.config/functions $fish_function_path
 export VISUAL=vim
 export editor="$VISUAL"
 
+set PATH $HOME/intellij/idea-IU-203.6682.168/bin $PATH
+

@@ -7,15 +7,18 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tomasiser/vim-code-dark'
-Plugin 'scrooloose/nerdtree'
 Plugin 'isRuslan/vim-es6'
 Plugin 'dag/vim-fish'
 Plugin 'jremmen/vim-ripgrep'
-Plugin 'tpope/vim-fugitive'
 Plugin 'vim-utils/vim-man'
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'mbbill/undotree'
+" Haskell things
+Plugin 'eagletmt/neco-ghc'
+Plugin 'eagletmt/ghcmod-vim'
+Plugin 'Shougo/vimproc.vim'
+" Elm things
+Plugin 'elmcast/elm-vim'
 call vundle#end()
 
 set t_Co=256
@@ -62,6 +65,24 @@ let g:netrw_browse_split=2
 let g:netrw_winsize=25
 
 let g:ctrlp_use_caching=0
+let g:ctrlp_regexp=1
+
+let g:ycm_semantic_triggers = {'haskell' : ['.'], 'elm' : ['.']}
+let g:necoghc_enable_detailed_browse=1
+
+" ELM
+let g:elm_jump_to_error = 0
+let g:elm_make_output_file = "elm.js"
+let g:elm_make_show_warnings = 0
+let g:elm_syntastic_show_warnings = 0
+let g:elm_browser_command = ""
+let g:elm_detailed_complete = 0
+let g:elm_format_autosave = 1
+let g:elm_format_fail_silently = 0
+let g:elm_setup_keybindings = 1
+
+" Use neco-ghc for Haskell
+autocmd FileType haskell setlocal omnifunc=necoghc#omnifunc
 
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
@@ -75,4 +96,5 @@ nnoremap <silent> <leader>- :vertical resize -5<CR>
 
 nnoremap <silent> <leader>gd :YcmCompleter GoTo<CR>
 nnoremap <silent> <leader>gf :YcmCompleter FixIt<CR>
+nnoremap <silent> <leader>gr :YcmCompleter GoToReferences<CR>
 

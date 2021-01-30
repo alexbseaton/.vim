@@ -10,7 +10,7 @@ From `~` run
 
 to use the dotfiles in this repo.
 
-Then run `vim +PluginInstall +qall` to install the Vundle plugins.
+Then run `v +PluginInstall +qall` to install the Vundle plugins.
 
 Also install the Chalk theme from https://github.com/Mayccoll/Gogh
 
