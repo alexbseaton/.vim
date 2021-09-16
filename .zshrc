@@ -45,6 +45,7 @@ export VISUAL=vim
 export editor="$VISUAL"
 
 set PATH $HOME/intellij/idea-IU-203.6682.168/bin $PATH
+set PATH $HOME/.local/bin $PATH
 
 KEYTIMEOUT=1
 bindkey -M viins 'jj' vi-cmd-mode

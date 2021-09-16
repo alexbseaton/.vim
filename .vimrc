@@ -12,7 +12,7 @@ Plugin 'dag/vim-fish'
 Plugin 'jremmen/vim-ripgrep'
 Plugin 'vim-utils/vim-man'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'Valloric/YouCompleteMe'
+Plugin 'ycm-core/YouCompleteMe'
 " Haskell things
 Plugin 'eagletmt/neco-ghc'
 Plugin 'eagletmt/ghcmod-vim'
@@ -48,8 +48,7 @@ set number
 set colorcolumn=100
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
-let g:python_host_prog = '/home/alex/.local/share/virtualenvs/vim2-FImGJ8U1/bin/python'
-let g:python3_host_prog = '/home/alex/.local/share/virtualenvs/vim3-8Lfd5VFn/bin/python'
+let g:python3_host_prog = '/home/alex/.local/share/virtualenvs/nvim3-n98ehGc7/bin/python'
 
 inoremap jj <ESC>
 nmap <C-n> :NERDTreeToggle<CR>
