@@ -38,14 +38,13 @@ chsh -s `which zsh`
 ### Terminal
 
 Install `gnome-terminal` and follow https://github.com/arcticicestudio/nord-gnome-terminal
+Disable the menu bar and menu mappings (eg don't want alt+H to bring up "Help").
+Choose a `source code pro` font in the settings UI.
+Note that `gnome-terminal --show-menubar` can bring up the menubar as a one off.
 
 ## Keybindings
 
 CapsLock -> Ctrl
 C-a-t -> Open terminal window
 C-a-w -> Open Chrome
-
-## Fonts
-
-Choose a `source code pro` font for your terminal in its settings UI.
 
