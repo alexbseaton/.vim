@@ -45,3 +45,7 @@ CapsLock -> Ctrl
 C-a-t -> Open terminal window
 C-a-w -> Open Chrome
 
+## Fonts
+
+Choose a `source code pro` font for your terminal in its settings UI.
+

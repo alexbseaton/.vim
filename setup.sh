@@ -10,4 +10,5 @@ ln -s ~/source/.config/i3/i3statusconfig ~/.config/i3status/config
 git clone https://github.com/tmux-plugins/tpm.git ~/.tmux/plugins/tpm
 
 curl -L git.io/antigen > ~/antigen.zsh
+~/source/.config/fonts.sh
 
