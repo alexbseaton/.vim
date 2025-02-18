@@ -1,4 +1,6 @@
+set shell=/bin/bash
 set nocompatible              " be iMproved, required
+set relativenumber
 filetype off
 
 " line cursor in insert mode
@@ -20,6 +22,7 @@ set nowrap
 set smartcase
 set noswapfile
 set nobackup
+set undodir=~/.vim/ideaundodir
 set undofile
 set incsearch
 set number
@@ -28,7 +31,6 @@ set colorcolumn=120
 highlight ColorColumn ctermbg=0 guibg=lightgrey
 
 inoremap jj <ESC>
-nmap <C-n> :NERDTreeToggle<CR>
 let mapleader=" "
 
 nnoremap <leader>h :wincmd h<CR>
@@ -37,5 +39,6 @@ nnoremap <leader>k :wincmd k<CR>
 nnoremap <leader>l :wincmd l<CR>
 nnoremap <leader>u :UndotreeShow<CR>
 nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
+nnoremap <leader>ps :Rg<SPACE>
 nnoremap <silent> <leader>+ :vertical resize +5<CR>
 nnoremap <silent> <leader>- :vertical resize -5<CR>
